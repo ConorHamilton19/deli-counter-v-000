@@ -6,7 +6,7 @@ def line(deli)
     counter = 0
     deli.each do |name|
     counter += 1 
-    new_list.push 
+    new_list.push "#{counter}. #{name}"
   end
 end
 end
