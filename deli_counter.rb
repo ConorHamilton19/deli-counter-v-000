@@ -1,7 +1,7 @@
 def line(deli) 
   if deli.length == 0 
     puts "The line is currently empty."
-  elsif deli > 0
+  else
     new_list = []
     counter = 0
     deli.each do |name|
