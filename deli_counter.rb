@@ -8,3 +8,4 @@ def line(deli)
     puts "The line is currently: #{counter}. #{name} "
   end
 end
+end
