@@ -5,7 +5,7 @@ def line(deli)
     counter = 0
     deli.each do |name|
     counter += 1 
-     
+    
   end
 end
 end
