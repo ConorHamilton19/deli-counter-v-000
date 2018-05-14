@@ -7,6 +7,7 @@ def line(deli)
     deli.each do |name|
     counter += 1 
     new_list.push "#{counter}. #{name}"
+    puts "The line is currently: "
   end
 end
 end
